@@ -306,6 +306,62 @@ nav ul li a:hover{
 
 }
 
+/* ################services################# */
+
+#services{
+    padding: 40px;
+}
+
+.service{
+    margin: 30px 0;
+    display: flex;
+}
+
+.service-icon .fas ,
+.service-icon .far,
+.service-icon  .fab{
+    font-size: 60px;
+    color: #2b98f0;
+    margin-right: 20px;
+}
+.service-subtitle{
+    text-transform: capitalize;
+    color: #2b98f0;
+    font-size: 20px;
+}
+.service-info{
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.service:hover .fas,
+.service:hover .far,
+.service:hover .fab,
+.service:hover .service-subtitle{
+    color: rgba(0, 0,0, 0.8);
+}
+
+.service:hover .service-info{
+    color: rgb(147,147,147);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
