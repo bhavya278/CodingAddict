@@ -289,7 +289,22 @@ nav ul li a:hover{
 }
 
 
+/* responsive about */
 
+@media screen and (min-width:776px){
+    #about{
+        display: flex;
+    }
+    #about-text{
+        min-height: 40vh;
+        flex: 0 0 60%;/*don't grow and don't shrink*/
+    }
+    #about-video{
+        min-height: 40vh;
+        flex: 0 0 40%;
+    }
+
+}
 
 
 
