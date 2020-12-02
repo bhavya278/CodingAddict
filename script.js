@@ -4,5 +4,4 @@ $(document).ready(function(){
         $('#links').toggle(2000)
         $('#menu-btn').toggleClass('turn')
     }
-
 })
